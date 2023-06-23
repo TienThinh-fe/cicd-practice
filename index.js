@@ -4,7 +4,7 @@ const express = require('express')
 const app = express()
 const port = 3001
 
-app.get('/', (req, res) => res.send('Hello CI/CD! 12'))
+app.get('/', (req, res) => res.send('Hello CI/CD! 1234'))
 
 app.get('/test', (req, res) => res.send('Test'))
 
