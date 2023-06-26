@@ -14,8 +14,10 @@ console.log(1)
 
 console.log(2)
 
-console.log(2)
+console.log('rebase')
 
 console.log(2)
+
+console.log(4)
 
 module.exports = app
