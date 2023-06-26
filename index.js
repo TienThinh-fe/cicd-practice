@@ -6,7 +6,7 @@ const port = 3001
 
 app.get('/', (req, res) => res.send('Hello CI/CD! 1234'))
 
-app.get('/test', (req, res) => res.send('Test'))
+app.get('/test', (req, res) => res.send('Test 123'))
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))
 
