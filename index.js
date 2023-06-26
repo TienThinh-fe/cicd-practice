@@ -10,4 +10,6 @@ app.get('/test', (req, res) => res.send('Test 123'))
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))
 
+console.log(1)
+
 module.exports = app
