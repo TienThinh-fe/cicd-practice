@@ -12,4 +12,6 @@ app.listen(port, () => console.log(`Example app listening on port ${port}!`))
 
 console.log(1)
 
+console.log(2)
+
 module.exports = app
